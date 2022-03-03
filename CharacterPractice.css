@@ -1,0 +1,14 @@
+h1 {font-weight: bold;}
+#go {color: darkgreen;}
+.old{text-decoration: line-through;}
+article{font-size: small;}
+#stop {color: red;}
+.highlighted {text-decoration: underlined;}
+.special {font-family: 'Old English Text MT'}
+a {color: yellow;}
+p {font-style: italic;}
+ol {font-family: Cambria, serif;}
+.mono {font-family: Consolas, 'Courier New', monospace;}
+th {font-style: italic; font-weight: bold;}
+td {color: blue; font-size: medium;}
+.big {font-size: x-large; font-weight: bold;}

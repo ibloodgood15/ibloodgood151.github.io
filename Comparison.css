@@ -1,0 +1,20 @@
+h1 {color: blue; font-size: xx-large; font-weight: bold; font-style: italic; border-color: black; border-style:double; border-radius: 150px; border-width: thick;}
+#similarities {color:dodgerblue; font-weight: bold; }
+#similarCategory1 {color:forestgreen; font-weight: bold; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: xx-large;}
+a {color:gold; font-weight: bold;}
+#similarCategory1List {color:magenta; font-size: medium;}
+#similarCategory2List {color:mediumblue; font-size: medium;}
+#similarCategory3List {color:greenyellow; font-size: medium;}
+#similarCategory2 {color:forestgreen; font-weight: bold; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: x-large;}
+#similarCategory3 {color: forestgreen; font-weight: bold; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: x-large;}
+#differences {color:indigo; font-size: x-large; font-weight: bold;}
+#differenceCategory1 {color:lightcoral; font-size: medium;}
+#differenceCategory2 {color:maroon; font-size: medium;}
+#differenceCategory3 {color:mediumpurple; font-size: medium;}
+.left {color:navy; font-style: italic;}
+.right {color:orangered; font-style: italic;}
+body {text-align: center;}
+ol {list-style-position: inside;}
+li {list-style-position: inside;}
+html {background-color:skyblue;}
+table {border-color:darkcyan; border-color:darkslateblue; border-width:thick; border-width: thick; border-style:solid; border-style:solid; margin-left:auto; margin-right: auto;}
