@@ -1,0 +1,12 @@
+h1 {font-weight:bold;}
+h2 {font-size: large; vertical-align: middle;}
+aside {text-align: right; background-color: yellow; color: green;}
+.marked {background-color: green; border-style: dashed; border-color: red;}
+nav {background-color: white; border-style: inset;}
+table.chart {background-image: url(pies.png);}
+#maintopic {border-color: blue; border-style: double; text-align: center;}
+#mission {border-style: groove; text-align: right; font-family:'Old English Text MT'}
+p.dark {background-color: black; color: lightgray;}
+a:hover {border-style: outset;}
+div.ending {vertical-align: bottom; text-align: right;}
+.saints {background-color: yellow; color: blue; border-style: thick; border-color: blue;}

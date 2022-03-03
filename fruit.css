@@ -1,0 +1,8 @@
+#companyname {font-size:xx-large; font-weight: bold; color: green; font-family: 'Berlin Sans FB', sans-serif;}
+#slogan {font-size:large; font-style: italic; color: green; font-family: 'Times New Roman', serif;}
+h2 {font-size: x-large; font-style: italic; color: red; font-family: 'Berlin Sans FB', sans-serif;}
+table {width: 250px; }
+th {color: orange; font-size: large; font-weight: bold; font-family: 'Berlin Sans FB', sans-serif;}
+td {color: lightgreen; font-size: large; font-style: italic; font-family: 'Century Gothic', sans-serif;}
+.product {color: green; font-size: large; font-weight: bold; font-style: normal; font-family: 'Century Gothic', sans-serif;}
+ul {color: skyblue; font-size: large; color:purple; font-style:normal; font-family: 'Times New Roman', serif;}
