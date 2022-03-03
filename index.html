@@ -5,8 +5,8 @@
         <style type = "text/css">
             html{background-color:rgb(255, 0, 0);}
         </style>
-
-
+        <meta charset="utf-8" />
+        <link href="Comparison.css" rel="stylesheet">
     </head>
 
     <body>
@@ -85,6 +85,95 @@
 
 
         <h1>Cool CSS Stuff</h1>
-
+        <h1 id="top">HTML and CSS</h1>
+        <p>Since we have looked at both HTML and CSS in Web Design this year, let's take a moment to compare them. Here are some similarities and differences between HTML and CSS.</p>
+        <hr>
+        <ol type="I">
+            <li>
+                <a href=#similarities">Similarities</a>
+                <ol type="A">
+                    <li><a href="#similarCategory1">Opening and saving</a></li>
+                    <li><a href="#similarCategory2">What is in them</a></li>
+                    <li><a href="#similarCategory3">Formatting</a></li>
+                </ol>
+            </li>
+            <li>
+                <a href="#differences">Differences</a>
+                <ol type="A">
+                    <li><a href="#differenceCategory1">Punctuation</a></li>
+                    <li><a href="#differenceCategory2">Purpose</a></li>
+                    <li><a href="#differenceCategory3">History</a></li>
+                </ol>
+            </li>
+        </ol>
+        <h2 id="similarities">Similarities</h2>
+        <h3 id="similarCategory1">Opening and saving</h3>
+        <ul id = "similarCategory1List">
+            <li>Both HTML and CSS are saved as plain text and can be typed using a simple program like Notepad.</li>
+            <li>HTML and CSS are usually saved in the same directory (or folder) so that they can work together.</li>
+            <li>Both HTML and CSS can be accessed on the Internet using HTTP.</li>
+        </ul>
+        <h3 id="similarCategory2">What is in them</h3>
+        <ul id = "similarCategory2List">
+            <li>HTML and CSS understand the same elements (h1, br, etc.).</li>
+            <li>Both HTML and CSS provide ways for you to put in comments (notes for yourself) in the file that do not affect how the final page looks.</li>
+            <li>Both use the hash symbol (#) to represent an ID to look up.</li>
+        </ul>
+        <h3 id="similarCategory3">Formatting</h3>
+        <p>Some older, deprecated HTML elements overlap in purpose with CSS.</p>
+        <ul id = "similarCategory3List">
+            <li>The &lt;b&gt; element makes things bold, like <code>font-weight: bold</code>.</li>
+            <li>The &lt;small&gt; element makes things smaller, like <code>font-size: smaller</code>.</li>
+            <li>The &lt;center&gt; element (officially gone now, but it probably still works) centers text horizontally, like <code>text-align: center</code>.</li>
+        </ul>
+        <hr>
+        <a href="#top">Top of page</a>
+        <h2 id="differences">Differences</h2>
+        <h3 id="differenceCategory1">Punctuation</h3>
+        <table>
+            <tr><th class="left">HTML</th><th class="right">CSS</th></tr>
+            <tr>
+                <td class="left">Uses angle brackets (&lt; and &gt;)</td>
+                <td class="right">Uses curly braces ({ and })</td>
+            </tr>
+            <tr>
+                <td class="left">Starts a section with an opening tag (like &lt;a&gt;) and ends it with a closing tag (like &lt;/a&gt;)</td>
+                <td class="right">Starts a section with a selector and an opening curly brace (like a{) and ends it with just a closing brace (})</td>
+            </tr>
+            <tr>
+                <td class="left">Attributes are set with an equal sign and a value in double-quotes</td>
+                <td class="right">Properties are set with a colon followed by the value, not necessarily in quotes</td>
+            </tr>
+        </table>
+        <h3 id="differenceCategory2">Purpose</h3>
+        <table>
+            <tr><th class="left">HTML</th><th class="right">CSS</th></tr>
+            <tr>
+                <td class="left">HTML is currently designed to contain content.</td>
+                <td class="right">CSS is designed to format existing content.</td>
+            </tr>
+            <tr>
+                <td class="left">HTML can be used by itself.</td>
+                <td class="right">CSS only makes sense when used in combination with HTML.</td>
+            </tr>
+            <tr>
+                <td class="left">HTML has changed purpose over the years. At one point it also included some formatting elements before CSS was introduced.</td>
+                <td class="right">CSS has always been about formatting - nothing else.</td>
+            </tr>
+        </table>
+        <h3 id="differenceCategory3">History</h3>
+        <table>
+            <tr><th class="left">HTML</th><th class="right">CSS</th></tr>
+            <tr>
+                <td class="left">HTML's syntax and punctuation were inspired by the more general-purpose SGML language.</td>
+                <td class="right">CSS's syntax and punctuation appear to be inspired by programming languages like C, C++, Java, and JavaScript.</td>
+            </tr>
+            <tr>
+                <td class="left">HTML was originally developed by Tim Berners-Lee around 1990.</td>
+                <td class="right">CSS was developed by Håkon Wium Lie and Bert Bos around 1994 to 1996.</td>
+            </tr>
+        </table>
+        <hr>
+        <a href="#top">Top of page</a>
     </body>
 </html>
